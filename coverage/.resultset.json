@@ -3,11 +3,24 @@
     "coverage": {
       "/Users/toddlangford-archer/Documents/makers/week-4/bookmark-henry-todd/app.rb": [
         1,
-        null,
         1,
         null,
         1,
         1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/toddlangford-archer/Documents/makers/week-4/bookmark-henry-todd/lib/bookmark.rb": [
+        1,
+        1,
+        2,
+        null,
+        null,
+        null,
         null,
         null,
         null
@@ -15,15 +28,41 @@
       "/Users/toddlangford-archer/Documents/makers/week-4/bookmark-henry-todd/spec/features/web_helpers.rb": [
 
       ],
-      "/Users/toddlangford-archer/Documents/makers/week-4/bookmark-henry-todd/spec/features/view_index_spec.rb": [
+      "/Users/toddlangford-archer/Documents/makers/week-4/bookmark-henry-todd/spec/bookmark_spec.rb": [
+        1,
+        null,
         1,
         1,
         1,
         1,
         null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/toddlangford-archer/Documents/makers/week-4/bookmark-henry-todd/spec/features/view_bookmarks_spec.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/toddlangford-archer/Documents/makers/week-4/bookmark-henry-todd/spec/features/view_index_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1540217202
+    "timestamp": 1540222105
   }
 }
