@@ -37,11 +37,6 @@
         1,
         2,
         2,
-        null,
-        null,
-        1,
-        2,
-        2,
         2,
         2,
         null
@@ -49,7 +44,6 @@
       "/Users/toddlangford-archer/Documents/makers/week-4/bookmark-henry-todd/spec/bookmark_spec.rb": [
         1,
         null,
-        1,
         1,
         1,
         1,
@@ -79,13 +73,12 @@
         1,
         1,
         1,
-        1,
         null,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1540303755
+    "timestamp": 1540305275
   }
 }

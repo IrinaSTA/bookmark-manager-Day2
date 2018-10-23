@@ -9,7 +9,6 @@ feature 'Viewing bookmarks' do
 
   feature 'viewing bookmarks' do
     scenario 'bookmarks are visible' do
-      truncate_bookmarks
       add_bookmarks
       visit '/bookmarks'
       expect(page).to have_content 'http://www.makersacademy.com'
