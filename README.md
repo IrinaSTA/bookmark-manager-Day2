@@ -30,8 +30,13 @@ Connect to `psql` and create the `bookmark_manager` database:
 ```
 CREATE DATABASE bookmark_manager;
 ```
+Connect to `psql` and create the test `bookmark_manager_test` database:
 
-To set up the appropriate tables, connect to the database in `psql` and run the SQL scripts in the `db/migrations` folder in the given order.
+```
+CREATE DATABASE bookmark_manager_test;
+```
+
+To set up the appropriate tables, connect to the database in `psql` and run the SQL scripts in the `db/migrations` folder in the given order for both production and test environments.
 
 ### To run the Bookmark Manager app:
 
