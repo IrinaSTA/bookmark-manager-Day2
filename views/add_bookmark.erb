@@ -1,8 +1,13 @@
+<%= erb :base %>
+
 <body>
 
 <form action="/add_new" method="post">
   URL:<br>
-  <input type="text" name="url" value="Url">
+  <input type="text" name="url" placeholder="URL">
+  <br>
+  Title:<br>
+  <input type="text" name="title" placeholder="Title">
   <br><br>
   <input type="submit" value="Save">
 </form>

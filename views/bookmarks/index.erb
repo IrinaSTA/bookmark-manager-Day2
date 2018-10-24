@@ -1,6 +1,12 @@
-<ul>
-  <% @bookmarks.each do |bookmark| %>
-    <li><%= bookmark %></li>
-  <% end %>
-</ul>
-<a href="/add_bookmark">Add new</a>
+<%= erb :base %>
+
+<div class="container">
+  <div class="jumbotron">
+    <ul>
+      <% @bookmarks.each do |bookmark| %>
+        <li> <a href="<%= bookmark.url %>"><%= bookmark.title %></a></li>
+      <% end %>
+    </ul>
+    <!-- <a href="/add_bookmark">Add new</a> -->
+  </div>
+</div>
