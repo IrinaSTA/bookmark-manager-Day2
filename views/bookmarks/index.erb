@@ -1,12 +1,16 @@
 <%= erb :base %>
 
-<div class="container">
-  <div class="jumbotron">
-    <ul>
+<%# <div class="container"> %>
+  <%# <div class="jumbotron"> %>
+    <%# <ul> %>
       <% @bookmarks.each do |bookmark| %>
-        <li> <a href="<%= bookmark.url %>"><%= bookmark.title %></a></li>
+        <a href="<%= bookmark.url %>"><li><%= bookmark.title %></li></a>
+        <form action="/bookmarks/<%=bookmark.id%>/delete" method="post">
+          <input id="hidden" type="hidden" name="_method" value="delete">
+          <input type="submit" value="Delete">
+        </form>
       <% end %>
-    </ul>
+    <%# </ul> %>
     <!-- <a href="/add_bookmark">Add new</a> -->
-  </div>
-</div>
+  <%# </div> %>
+<%# </div> %>

@@ -8,8 +8,16 @@ So I can quickly go to my websites
 I want to see a list of bookmarks
 
 As a busy user
-So I can retrive a bookmark later
+So I can retrieve a bookmark later
 I want to add a new bookmark
+
+As a busy user
+To keep my list of bookmarks clean
+I want to delete a no longer needed bookmark
+
+As a busy user
+To correct my mistakes
+I want to update a bookmark's title or url
 
 ```
 
